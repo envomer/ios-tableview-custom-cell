@@ -13,6 +13,7 @@
 		F6E3F9062518A8B6002D3826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E3F9042518A8B6002D3826 /* Main.storyboard */; };
 		F6E3F9082518A8B7002D3826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E3F9072518A8B7002D3826 /* Assets.xcassets */; };
 		F6E3F90B2518A8B7002D3826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E3F9092518A8B7002D3826 /* LaunchScreen.storyboard */; };
+		F6E3F9132518AA97002D3826 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3F9122518AA97002D3826 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F6E3F9072518A8B7002D3826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6E3F90A2518A8B7002D3826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6E3F90C2518A8B7002D3826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E3F9122518AA97002D3826 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F6E3F8FE2518A8B6002D3826 /* AppDelegate.swift */,
 				F6E3F9002518A8B6002D3826 /* SceneDelegate.swift */,
 				F6E3F9022518A8B6002D3826 /* ViewController.swift */,
+				F6E3F9122518AA97002D3826 /* CustomTableViewCell.swift */,
 				F6E3F9042518A8B6002D3826 /* Main.storyboard */,
 				F6E3F9072518A8B7002D3826 /* Assets.xcassets */,
 				F6E3F9092518A8B7002D3826 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				F6E3F9032518A8B6002D3826 /* ViewController.swift in Sources */,
 				F6E3F8FF2518A8B6002D3826 /* AppDelegate.swift in Sources */,
+				F6E3F9132518AA97002D3826 /* CustomTableViewCell.swift in Sources */,
 				F6E3F9012518A8B6002D3826 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T64V8DJJ4;
 				INFOPLIST_FILE = "ios-tableview-custom-cell/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T64V8DJJ4;
 				INFOPLIST_FILE = "ios-tableview-custom-cell/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
